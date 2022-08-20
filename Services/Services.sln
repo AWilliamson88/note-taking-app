@@ -8,6 +8,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\Domain\Domain\Domain.csproj", "{3B4F0AD4-F3AB-4B38-9513-B6E1158A6539}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "..\UnitTests\UnitTests\UnitTests.csproj", "{47EC13DD-3075-4F0C-A5E7-7AB5F829BFBA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{46C0D3DD-45E7-44E1-ABBF-F0145490D219} = {46C0D3DD-45E7-44E1-ABBF-F0145490D219}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
