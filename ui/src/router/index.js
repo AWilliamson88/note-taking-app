@@ -16,6 +16,15 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
+  {
+    path: "/note",
+    name: "note",
+    // route level code-splitting
+    // this generates a separate chunk (note.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "note" */ "../views/NoteView.vue"),
+  },
 ];
 
 const router = createRouter({
